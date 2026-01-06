@@ -4,6 +4,7 @@ import type {
 	ICredentialType,
 	IHttpRequestOptions,
 	INodeProperties,
+	IconFile,
 } from 'n8n-workflow';
 
 export class HackAiApi implements ICredentialType {
@@ -12,7 +13,10 @@ export class HackAiApi implements ICredentialType {
 	displayName = 'HackAI API';
 
 	documentationUrl = 'https://docs.ai.hackclub.com';
-	icon = 'file:hackAi.svg';
+	icon = {
+		light: 'file:hackAi.svg' as IconFile,
+		dark: 'file:hackAi.dark.svg' as IconFile,
+	};
 
 	properties: INodeProperties[] = [
 		{

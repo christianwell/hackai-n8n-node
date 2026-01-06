@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-hackai",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n community node for Hack AI (ai.hackclub.com)",
 	"license": "MIT",
 	"homepage": "https://github.com/christianwell/hackai-n8n-node",
@@ -25,8 +25,7 @@
 		"dev": "n8n-node dev",
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix",
-		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
+		"release": "n8n-node release"
 	},
 	"files": [
 		"dist"
