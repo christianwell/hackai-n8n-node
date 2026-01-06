@@ -10,7 +10,7 @@ export class HackAi implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'HackAi',
 		name: 'hackAi',
-		hidden: true,
+		// hidden: false, // Commenting out the hidden property to make it appear in n8n
 		icon: { light: 'file:hackAi.svg', dark: 'file:hackAi.dark.svg' },
 		group: ['transform'],
 		version: [1, 1.1],

@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-hackai",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "n8n community node for Hack AI (ai.hackclub.com)",
 	"license": "MIT",
 	"homepage": "https://github.com/christianwell/hackai-n8n-node",

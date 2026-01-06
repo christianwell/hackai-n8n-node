@@ -2,7 +2,7 @@
 	"node": "n8n-nodes-base.Hackai",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": ["Utility"],
+	"categories": ["Language Models", "AI", "Utility"],
 	"resources": {
 		"credentialDocumentation": [
 			{
