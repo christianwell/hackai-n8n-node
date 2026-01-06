@@ -1,0 +1,19 @@
+{
+	"node": "n8n-nodes-base.Hackai",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Utility"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://docs.ai.hackclub.com/"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.ai.hackclub.com/"
+			}
+		]
+	},
+	"alias": ["Hackai", "hackclubai", "hackclub","ai"]
+}
