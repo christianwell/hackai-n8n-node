@@ -40,7 +40,7 @@ export class HackAiApi implements ICredentialType {
 			displayName: 'Base URL',
 			name: 'url',
 			type: 'string',
-			default: 'https://ai.hackclub.com/v1',
+			default: 'https://ai.hackclub.com/proxy/v1/',
 			description: 'Override the default base URL for the API',
 		},
 		{
